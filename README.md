@@ -6,7 +6,7 @@ This project implements a prediction of rise/fall of stocks based on news headli
 
 - `preprocess.py`: This file contains the preprocessing of the data - the headlines are fitted to dates.
 - `extracting_features_updated.ipynb`: This notebook reads the preprocessed data. It then generates embeddings and sentiment analysis columns for the data.
-- `final_model.ipynb`: This file contains the LSTM prediction model of the data
+- `model.py`: This file contains the LSTM prediction model of the data
 
 ## Simulation Overview
 

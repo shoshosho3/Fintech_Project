@@ -2,13 +2,11 @@
 
 This project implements a prediction of rise/fall of stocks based on news headlines using machine and deep learning techniques.
 
-### Files
+## Files
 
 - `preprocess.py`: This file contains the preprocessing of the data - the headlines are fitted to dates.
 - `extracting_features_updated.ipynb`: This notebook reads the preprocessed data. It then generates embeddings and sentiment analysis columns for the data.
-- `data_analysis.ipynb`: Provides data analysis of the simulation results.
-- `data_analysis_battery_mode.ipynb`: Focuses on analyzing simulations in battery mode.
-- `new_alg_code.ipynb`: Implements and tests the new Multi-Agent Multi-Directional Cooperative RRT* algorithm.
+- `final_model.ipynb`: This file contains the LSTM prediction model of the data
 
 ## Simulation Overview
 

@@ -8,6 +8,9 @@ This project implements a prediction of rise/fall of stocks based on news headli
 - `extracting_features_updated.ipynb`: This notebook reads the preprocessed data. It then generates embeddings and sentiment analysis columns for the data.
 - `model.py`: This file contains the LSTM prediction model of the data
 
+## Data
+We use financial news headlines data from the following Kaggle source: https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests/data?select=raw_partner_headlines.csv
+
 ## Parameters
 The main simulation logic is managed by `my_ground.py`, which offers several configurable parameters:
 

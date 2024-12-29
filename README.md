@@ -4,8 +4,8 @@ This project implements a prediction of rise/fall of stocks based on news headli
 
 ### Files
 
-- `goto_cont/`: Contains `goto_cont.py`, the controller code for robot movement.
-- `my_ground/`: Contains `my_ground.py`, the supervisor controller code, responsible for managing the simulation parameters and running the simulations.
+- `preprocess.py`: This file contains the preprocessing of the data - the headlines are fitted to dates.
+- ``: Contains `my_ground.py`, the supervisor controller code, responsible for managing the simulation parameters and running the simulations.
 - `data_analysis.ipynb`: Provides data analysis of the simulation results.
 - `data_analysis_battery_mode.ipynb`: Focuses on analyzing simulations in battery mode.
 - `new_alg_code.ipynb`: Implements and tests the new Multi-Agent Multi-Directional Cooperative RRT* algorithm.

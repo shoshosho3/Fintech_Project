@@ -8,9 +8,7 @@ This project implements a prediction of rise/fall of stocks based on news headli
 - `extracting_features_updated.ipynb`: This notebook reads the preprocessed data. It then generates embeddings and sentiment analysis columns for the data.
 - `model.py`: This file contains the LSTM prediction model of the data
 
-## Simulation Overview
-
-### Supervisor Parameters
+## Parameters
 The main simulation logic is managed by `my_ground.py`, which offers several configurable parameters:
 
 ```python

@@ -6,7 +6,7 @@ This project implements a prediction of rise/fall of stocks based on news headli
 
 - `preprocess.py`: This file contains the preprocessing of the data - the headlines are fitted to dates.
 - `extracting_features_updated.ipynb`: This notebook reads the preprocessed data. It then generates embeddings and sentiment analysis columns for the data.
-- `model.py`: This file contains the LSTM prediction model of the data
+- `model.py`: This file contains the LSTM training and prediction process
 
 ## Data
 We use financial news headlines data from the following Kaggle source: https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests/data?select=raw_partner_headlines.csv
